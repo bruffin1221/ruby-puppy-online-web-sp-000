@@ -18,7 +18,7 @@ class Dog
     end
 
     def self.print_all
-      self.all.join
+      self.all.split
     end
 
     def save

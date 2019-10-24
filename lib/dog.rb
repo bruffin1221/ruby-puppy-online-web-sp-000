@@ -9,6 +9,9 @@ class Dog
       @@all << self
     end
 
+    def self.all
+      @@all
+
     def self.print_all
       self.all.each do |dogs|
         puts "#{dogs}"

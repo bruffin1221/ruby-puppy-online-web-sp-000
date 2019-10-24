@@ -19,7 +19,7 @@ class Dog
 
     private
 
-    def save(name)
+    def save
       @@all<<self
     end
 

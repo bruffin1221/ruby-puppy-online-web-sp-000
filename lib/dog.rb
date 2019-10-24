@@ -18,8 +18,8 @@ class Dog
     end
 
     def self.print_all
-      @@all.each do |n|
-        puts "#{n}"
+      @@all.map do |n|
+        n.join
       end
     end
 

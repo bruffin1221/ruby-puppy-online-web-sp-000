@@ -10,11 +10,11 @@ class Dog
     end
 
     def self.all
-      save
+      @@all
     end
 
     def self.clear_all
-      save.clear
+      self.all.clear
     end
 
     private

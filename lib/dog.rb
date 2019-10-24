@@ -17,8 +17,6 @@ class Dog
       self.all.clear
     end
 
-    private
-
     def save
       @@all<<self
     end

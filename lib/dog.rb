@@ -11,6 +11,7 @@ class Dog
 
     def self.all
       @@all
+    end
 
     def self.print_all
       self.all.each do |dogs|
@@ -18,4 +19,4 @@ class Dog
       end
     end
 
-    private
+  end

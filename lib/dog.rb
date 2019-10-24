@@ -18,7 +18,8 @@ class Dog
     end
 
     def self.print_all
-      self.all.split
+      self.all.each do |n|
+        puts n
     end
 
     def save

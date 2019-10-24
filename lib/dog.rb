@@ -4,7 +4,7 @@ class Dog
 
     @@all=[]
 
-    def initialize
+    def initialize(name)
       save
     end
 
@@ -17,7 +17,6 @@ class Dog
     end
 
     private
-
 
     def save(name)
       @name=name

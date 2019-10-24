@@ -17,6 +17,11 @@ class Dog
       @@all.clear
     end
 
+    def initialize(name)
+      @name=name
+      @@all << self
+    end
+
     def self.print_all
       self.all.each do |dogs|
         puts "#{dogs}"

@@ -17,16 +17,8 @@ class Dog
       @@all.clear
     end
 
-    attr_accessor :name
-
-    def initialize(name)
-      @name=name
-      @@all << self
-    end
-
     def self.print_all
-      self.all.each do |dogs|
-        puts "#{dogs}"
+      self.all
       end
     end
 

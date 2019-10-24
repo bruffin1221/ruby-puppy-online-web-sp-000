@@ -14,7 +14,7 @@ class Dog
     end
 
     def self.print_all
-      self.each do |n|
+      self.all.each do |n|
         puts "#{n}"
       end
     end

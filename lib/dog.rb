@@ -19,7 +19,7 @@ class Dog
 
     def self.print_all
       @@all.map do |n|
-        n.split
+      puts "#{n.split}"
       end
     end
 

@@ -17,6 +17,9 @@ class Dog
       self.all.clear
     end
 
+    def print_all
+      self.all.join
+
     def save
       @@all<<self
     end

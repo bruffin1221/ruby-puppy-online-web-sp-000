@@ -23,4 +23,8 @@ class Dog
       @@all.clear
     end
 
+    def save
+      @@all<<self
+    end
+
   end

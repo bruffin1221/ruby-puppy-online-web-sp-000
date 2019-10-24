@@ -19,7 +19,7 @@ class Dog
 
     def self.print_all
       @@all.each do |n|
-        puts n.join
+        puts n.split
       end
     end
 

@@ -19,7 +19,7 @@ class Dog
 
     def self.print_all
       @name.each do |n|
-        puts n
+        puts "#{n}"
       end
     end
 
